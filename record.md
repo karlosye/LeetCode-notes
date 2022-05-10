@@ -1,5 +1,5 @@
 # LeetCode_Journal
-This github repository is used to document the common leetcode questions that shows up in typical coding interviews. I usually do summary and reviews and commit to this repository once a week.
+This github repository is used to document the common leetcode questions that shows up in typical coding interviews. I usually do summary and reviews and commit to this repository once a week. -- Karlos
 
 ## 2181. Merge Nodes in Between Zeros (Linked list - medium difficulty)
 ```
