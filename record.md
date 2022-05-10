@@ -1,7 +1,7 @@
 # LeetCode_Journal
 This github repository is used to document the common leetcode questions that shows up in typical coding interviews. I usually do summary and reviews and commit to this repository once a week.
 
-## 2181. Merge Nodes in Between Zeros
+## 2181. Merge Nodes in Between Zeros (Linked list - medium difficulty)
 ```
 var mergeNodes = function(head) {
     
@@ -32,6 +32,34 @@ var mergeNodes = function(head) {
     
     // return dummyNode.next as the head node.
     return dummyNode.next;
+    
+};
+```
+
+## 485. Max Consecutive Ones (Array - easy)
+compare and overwrite
+```
+var findMaxConsecutiveOnes = function(nums) {
+    
+    let count = 0;
+    let max = 0;
+    
+    for (let i = 0; i<nums.length; i++) {
+        
+        if (nums[i] == 1) {
+            
+            count = count + 1;
+            
+        } else if (nums[i] == 0) {
+            
+            count = 0;
+        };
+        
+        max = Math.max(max,count);
+        
+    }
+    
+    return max;
     
 };
 ```
