@@ -68,3 +68,34 @@ var findMaxConsecutiveOnes = function(nums) {
     
 };
 ```
+
+### 1475. Final Prices With a Special Discount in a Shop
+use brute force. O(n^2) with nested for loop
+
+```
+var finalPrices = function(prices) {
+    
+    for (let i=0; i<prices.length;i++) {
+        
+        let discount;
+        
+        for (let j = i+1; j<prices.length; j++) {
+            
+            if (prices[j] <= prices[i]) {
+                
+                discount = prices[j];
+                break;
+            }
+        }
+        
+        if (discount) {
+            
+            prices[i] = prices[i] - discount;
+        }
+        
+    }
+    
+    return prices;
+    
+};
+```
