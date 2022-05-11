@@ -102,3 +102,23 @@ var finalPrices = function(prices) {
 
 ![Alt text](./smallerThanAll.JPG?raw=true "Title")
 looooooooooooooooooooool
+
+## 206. Reverse Linked List
+simple question. Simply change the direction of pointers iteratively, until the head reach the end of the nodelist.
+```
+var reverseList = function(head) {
+    
+    let prev = null;
+    
+    while (head) {
+        let next = head.next;
+        head.next = prev;
+        prev = head;
+        head = next;
+    }
+  
+    return prev;
+};
+
+```
+
