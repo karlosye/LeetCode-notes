@@ -99,3 +99,6 @@ var finalPrices = function(prices) {
     
 };
 ```
+
+![Alt text](./smallerThanAll.JPG?raw=true "Title")
+looooooooooooooooooooool
