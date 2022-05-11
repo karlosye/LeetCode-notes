@@ -5,6 +5,8 @@ Programming Language: JavaScript <br>
 Topics: strings, arrays, linked list, stacks, queue, tree, graph
 
 ## 2181. Merge Nodes in Between Zeros (Linked list - medium difficulty)
+
+Try not to use array, since it costs extra space
 ```
 var mergeNodes = function(head) {
     
