@@ -210,3 +210,12 @@ hashMap approach:
  } ;
 ```
 
+## 104. Maximum Depth of Binary Tree
+```
+var maxDepth = function(root) {
+    
+    if (!root) {return 0};
+        
+    return 1 + Math.max( maxDepth(root.left) , maxDepth(root.right) ) ;
+```
+
