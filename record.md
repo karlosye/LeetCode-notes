@@ -219,3 +219,35 @@ var maxDepth = function(root) {
     return 1 + Math.max( maxDepth(root.left) , maxDepth(root.right) ) ;
 ```
 
+## 9. Palindrome Number
+A second approach: a mathematical approach, without converting the number into a string.
+```
+var isPalindrome = function(x) {
+    
+    // Palindrome: read the same from left->right and right->left
+    
+    // use a mathematical approach:
+    
+    if (x < 0) {return false}
+    
+    let div = 1;
+    
+    while (x >= 10*div) {
+           
+         div = div*10;       
+    }
+    
+    while (x) {
+          
+        let left = Math.floor(x/div);
+        let right = x%10 ;
+        
+        if (left != right) {return false}
+        
+        x = Math.floor( (x%div)/10 );
+        div = div/100;
+    }
+        
+    return true;
+};
+```
