@@ -1,4 +1,4 @@
-# LeetCode_Journal
+# LeetCode_Note
 This github repository is used to document the common leetcode questions that shows up in typical coding interviews. I usually do summary and reviews and commit to this repository once a week.
 
 Programming Language: **JavaScript** <br>
