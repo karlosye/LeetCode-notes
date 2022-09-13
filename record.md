@@ -220,7 +220,7 @@ var maxDepth = function(root) {
 ```
 
 ## 9. Palindrome Number
-First approach: convert the number into string and use two pointers technique
+First approach: convert the number into string and use two pointers technique \
 Second approach: a mathematical approach, without converting the number into a string
 ```
 var isPalindrome = function(x) {
