@@ -2,6 +2,9 @@
 
 Some things to remember:
 
+- Misc:
+    - Be aware of int(Integer) overflow; when dealing with very large number, use Long instead
+
 - Array:
   - Time & Space complexity of sorting algorithem
   - Two pointers technique
