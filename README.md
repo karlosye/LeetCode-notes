@@ -23,4 +23,4 @@ Some things to remember:
   - remove/add takes O(log(n))
 
  - Stack & Queue:
-  - In JAVA, stack is a class, queue is an interface (use LinkedList or Dequeue or ArrayList)
+    - In JAVA, stack is a class, queue is an interface (use LinkedList or Dequeue or ArrayList)
