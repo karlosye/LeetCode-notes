@@ -6,6 +6,7 @@ Some things to remember:
   - Time & Space complexity of sorting algorithem
   - Two pointers technique
   - Matrix: mostly simulation - ability to write for loop and while loop
+  - converting between list and static array
   
 - String
   - String is immutable
