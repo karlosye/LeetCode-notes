@@ -21,3 +21,6 @@ Some things to remember:
   - By default, Java creates minHeap (smaller number has a higher priority)
   - Heap is NOT a sorted list!!!!
   - remove/add takes O(log(n))
+
+ - Stack & Queue:
+  - In JAVA, stack is a class, queue is an interface (use LinkedList or Dequeue or ArrayList)
