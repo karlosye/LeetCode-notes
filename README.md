@@ -12,6 +12,7 @@ Some things to remember:
   - Use StringBuilder class in Java to create a new string; return sb.toString() at the end
   
 - Linked List
+  - 3 types of linked list: singly, double, cycle linkedlist
   - Pointers manipulation
   - when dealing with the first linked list node, use a dummyNode
  
