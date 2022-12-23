@@ -3,7 +3,8 @@
 Some things to remember:
 
 - Misc:
-    - Be aware of int(Integer) overflow; when dealing with very large number, use Long instead
+    - Be aware of int(Integer) overflow; when dealing with very large number, use Long instead (64bit > 32bit)
+    - When dividing between 2 integer values, in order to get decimal, cast one of the divisor to double
 
 - Array:
   - Time & Space complexity of sorting algorithem
