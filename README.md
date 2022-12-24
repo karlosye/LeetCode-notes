@@ -32,7 +32,7 @@ Some things to remember:
     - In JAVA, stack is a class, queue is an interface (use LinkedList or Dequeue or ArrayList)
 
 - HashTable:
-   - Implementation: array + linedList
+   - Implementation: array + linkedList (easy lookup + easy change)
    - process: key -> hashCode (via some hash function) -> inbound index -> find the value (deal with hash collision such as chained linked list)
    - assume the lookup time is constant (assume we have very good hash function and no hash collision)
        
