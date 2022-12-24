@@ -2,6 +2,8 @@
 
 Some things to remember:
 
+- Complexity ranking: n! -> 2^n -> n^3 -> n^2 -> nlog(n) -> n -> sqrt(n) -> log(n) -> constant  
+
 - Misc:
     - Be aware of int(Integer) overflow; when dealing with very large number, use Long instead (64bit > 32bit)
     - When dividing between 2 integer values, in order to get decimal, cast one of the divisor to double
