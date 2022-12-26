@@ -14,6 +14,8 @@ Some things to remember:
   - Matrix: mostly simulation - ability to write for loop and while loop
   - converting between list and static array
   
+  - when initialize an array in Java, the default item value will be set to zero
+  
 - String
   - String is immutable
   - Use StringBuilder class in Java to create a new string; return sb.toString() at the end
