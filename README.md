@@ -38,3 +38,7 @@ Some things to remember:
    - process: key -> hashCode (via some hash function) -> inbound index -> find the value (deal with hash collision such as chained linked list)
    - assume the lookup time is constant (assume we have very good hash function and no hash collision)
        
+- Dynamic Programming:
+    - The usual approach: 
+        - brute force dfs --> dfs with a cache (either array or hashMap) -> bottom-up dynamic programming
+        - make sure to communicate the optimization approach with the interviewer for communication
