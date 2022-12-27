@@ -32,6 +32,7 @@ Some things to remember:
 
  - Stack & Queue:
     - In JAVA, stack is a class, queue is an interface (use LinkedList or Dequeue or ArrayList)
+    - When implementing a queue in Java, Deque is preferred over linkedList because Dequeue takes less memory
 
 - HashTable:
    - Implementation: array + linkedList (easy lookup + easy change)
@@ -41,4 +42,4 @@ Some things to remember:
 - Dynamic Programming:
     - The usual approach: 
         - brute force dfs --> dfs with a cache (either array or hashMap) -> bottom-up dynamic programming
-        - make sure to communicate the optimization approach with the interviewer for communication
+        - make sure to communicate the optimization process with the interviewer
