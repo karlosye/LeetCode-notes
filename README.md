@@ -7,14 +7,14 @@ Some things to remember:
 - Misc:
     - Be aware of int(Integer) overflow; when dealing with very large number, use Long instead (64bit > 32bit)
     - When dividing between 2 integer values, in order to get decimal, cast one of the divisor to double
+    - Be aware of primitive type vs wrapper class  --> E.g Integer vs int, Boolean vs boolean 
 
 - Array:
   - Time & Space complexity of sorting algorithem
   - Two pointers technique
   - Matrix: mostly simulation - ability to write for loop and while loop
   - converting between list and static array
-  
-  - when initialize an array in Java, the default item value will be set to zero
+  - when initialize an int array in Java, the default item value will be set to 0
   
 - String
   - String is immutable
