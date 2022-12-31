@@ -1,6 +1,6 @@
 # LeetCode_notes
 
-Some things to remember:
+## Some things to remember:
 
 - Complexity ranking: n! -> 2^n -> n^3 -> n^2 -> nlog(n) -> n -> sqrt(n) -> log(n) -> constant  
 
@@ -46,3 +46,5 @@ Some things to remember:
 
 - Bit manipulation:
     - XOR: **1** if two ints are different, **0** if two ints are the same
+    - 0 XOR anything = anything, anything XOR anything itself = 0
+    - 5 ^ 5 = 0, 5 ^ 0 = 5
