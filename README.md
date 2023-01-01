@@ -43,6 +43,11 @@
     - The usual approach: 
         - brute force dfs --> dfs with a cache (either array or hashMap) -> bottom-up dynamic programming
         - make sure to communicate the optimization process with the interviewer
+    - Major question patterns:
+        - Basic ones
+        - Climb Stairs + Jump Game series
+        - Trade stock series
+        - Rob houses series
 
 - Bit manipulation:
     - XOR: **1** if two ints are different, **0** if two ints are the same
