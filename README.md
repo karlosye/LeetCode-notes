@@ -48,3 +48,8 @@
     - XOR: **1** if two ints are different, **0** if two ints are the same
     - 0 XOR anything = anything, anything XOR anything itself = 0
     - 5 ^ 5 = 0, 5 ^ 0 = 5
+    
+- Tree:
+    - inOrder vs preOrder vs postOrder
+    - Binary Tree vs Binary Search Tree
+    - note that an in-order traversal on BST is sorted 
