@@ -54,6 +54,8 @@
         - Unbounded KnapSack
         - Largest common subsequence
         - Palindromes
+     - Make sure to understand the following DP patterns and related questions:
+        - https://docs.google.com/spreadsheets/d/1pEzcVLdj7T4fv5mrNhsOvffBnsUH07GZk7c2jD-adE0/edit#gid=0
 
 - Bit manipulation:
     - XOR: **1** if two ints are different, **0** if two ints are the same
