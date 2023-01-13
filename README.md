@@ -20,6 +20,14 @@
   - String is immutable
   - Use StringBuilder class in Java to create a new string; return sb.toString() at the end
   
+  ```
+    StringBuilder sb = new StringBuilder();
+  
+    .... do things ....
+  
+    return sb.toString();
+  ```
+  
 - Linked List
   - 3 types of linked list: singly, double, cycle linkedlist
   - Pointers manipulation
@@ -29,6 +37,12 @@
   - By default, Java creates minHeap (smaller number has a higher priority)
   - Heap is NOT a sorted list!!!!
   - remove/add takes O(log(n))
+  - make sure you spell PriorityQueue correctly
+  
+ ```
+    PriorityQueue<Integer> minPQ = new PriorityQueue<>();
+    PriorityQueue<Integer> maxPQ = new PriorityQueue<>((n1,n2) -> n2 - n1);
+ ```
 
  - Stack & Queue:
     - In JAVA, stack is a class, queue is an interface (use LinkedList or Dequeue or ArrayList)
