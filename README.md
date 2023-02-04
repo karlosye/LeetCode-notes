@@ -52,7 +52,7 @@
    - Implementation: array + linkedList (easy lookup + easy change)
    - process: key -> hashCode (via some hash function) -> inbound index -> find the value (deal with hash collision such as chained linked list)
    - assume the lookup time is constant (assume we have very good hash function and no hash collision)
-   - A good way to deal with duplicate number of character: hashSet
+   - A good way to deal with duplicate number or character: hashSet
    
    ```
     Set<Character> charSet = new HashSet<>();
