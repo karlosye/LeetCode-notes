@@ -89,6 +89,6 @@
         - note that an in-order traversal on BST is sorted 
         - when search a node in BST, if node.val < key -> node = node.right (search to the right); vice versa
         
-    - A special kind of tree: trie - prefix tree
+    - A special kind of tree: trie - prefix tree (autocomplete, spellchecker)
         - has a mapping instead of left/right pointer
         - commonly used in word search
