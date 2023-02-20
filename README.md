@@ -29,7 +29,12 @@
   ```
   
 - Linked List
-  - 3 types of linked list: singly, double, cycle linkedlist
+  - 3 types of linked list: 
+    -   singly
+    -   double  
+    -   cycle linkedlist
+        - Floyd's Algorithm: find the intersection - slow and fast pointer, when slow & fast meet, reset a new pointer at the start, move 2 pointers at the same pace; when they meet each other, then there is the intersection
+        
   - Pointers manipulation
   - when dealing with the first linked list node, use a dummyNode
  
