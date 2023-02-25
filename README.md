@@ -17,7 +17,13 @@
   - when initialize an int array in Java, the default item value will be set to 0
   
 - INTERVAL typle problem:
-  - make sure to know how to merge 2 overlapping intervals: take the min. of 2 left endpoints, and the max. of 2 right endpoints
+  - make sure to know how to merge 2 overlapping intervals: take the min. of 2 left endpoints, and the max. of 2 right endpoints:
+  
+  ```
+    // merge 2 intervals
+    newInterval[0] = Math.min(newInterval[0], currInterval[0]);
+    newInterval[1] = Math.max(newInterval[1], currInverval[1]);
+  ```
   
 - String
   - String is immutable
