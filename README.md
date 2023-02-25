@@ -15,6 +15,8 @@
   - Matrix: mostly simulation - ability to write for loop and while loop
   - converting between list and static array
   - when initialize an int array in Java, the default item value will be set to 0
+  - INTERVAL typle problem
+    - make sure to know how to merge 2 overlapping intervals: take the min. of 2 left endpoints, and the max. of 2 right endpoints
   
 - String
   - String is immutable
