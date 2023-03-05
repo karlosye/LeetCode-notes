@@ -4,6 +4,10 @@
 
 - Complexity ranking: n! -> 2^n -> n^3 -> n^2 -> nlog(n) -> n -> sqrt(n) -> log(n) -> constant  
 
+- Remainder:
+    - ASK for clarification first, don't jump into code right away
+    - THINK OUT LOUD!! Say your thinking process while coding
+
 - Misc:
     - Be aware of int(Integer) overflow; when dealing with very large number, use Long instead (64bit > 32bit)
     - When dividing between 2 integer values, in order to get decimal, cast one of the divisor to double --> JAVA by default implements integer division
