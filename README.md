@@ -114,7 +114,8 @@
 - Graph: (V-Vertex(Node), E-Edges)
     - 2 common types of Graph: directed graph vs undirected graph
     - 2 ways to represent a graph:
-        - Adjacency Matrix (0 and 1)
+        - Adjacency Matrix:
+            - An array to store 1's/0's to represent edges
             - T.C: O(1) S.C: O(v^2)
         - Adjacency List:
             - T.C: O(V) S.C: O(V+E)
