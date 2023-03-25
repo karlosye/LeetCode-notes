@@ -120,3 +120,7 @@
         - Adjacency List:
             - An array/arrayList of LinkedList. Each linkedList has a unique node at the head. All adjacent neighbors to that node are added to that node's linkedList;
             - T.C: O(V) S.C: O(V+E)
+    - Some common graph algorithm:
+        - Union Find
+        - DFS & BFS
+        - Topological sort
