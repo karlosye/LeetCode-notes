@@ -110,3 +110,11 @@
     - A special kind of tree: trie - prefix tree (autocomplete, spellchecker)
         - has a mapping instead of left/right pointer
         - commonly used in word search
+        
+- Graph: (V-Vertex(Node), E-Edges)
+    - 2 common types of Graph: directed graph vs undirected graph
+    - 2 ways to represent a graph:
+        - Adjacency Matrix (0 and 1)
+            - T.C: O(1) S.C: O(v^2)
+        - Adjacency List:
+            - T.C: O(V) S.C: O(V+E)
