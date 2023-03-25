@@ -118,4 +118,5 @@
             - An array to store 1's/0's to represent edges
             - T.C: O(1) S.C: O(v^2)
         - Adjacency List:
+            - An array/arrayList of LinkedList. Each linkedList has a unique node at the head. All adjacent neighbors to that node are added to that node's linkedList;
             - T.C: O(V) S.C: O(V+E)
