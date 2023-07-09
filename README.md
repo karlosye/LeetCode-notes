@@ -115,12 +115,12 @@
     - 2 common types of Graph: directed graph vs undirected graph
     - 2 ways to represent a graph:
         - Adjacency Matrix:
-            - An array to store 1's/0's to represent edges
+            - An 2d array to store 1's/0's to represent edges
             - T.C: O(1) S.C: O(v^2)
         - Adjacency List:
             - An array/arrayList of LinkedList. Each linkedList has a unique node at the head. All adjacent neighbors to that node are added to that node's linkedList;
             - T.C: O(V) S.C: O(V+E)
     - Some common graph search algorithm:
+        - BFS & DFS
         - Union Find
-        - DFS & BFS
-        - Topological sort
+        - Prims Algo + Djistra
