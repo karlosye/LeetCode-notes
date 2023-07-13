@@ -123,4 +123,6 @@
     - Some common graph search algorithm:
         - BFS & DFS
         - Union Find
-        - Prims Algo + Djistra
+        - Topological sort (an implementation of DFS)
+        - Prims Algorithm (to generate a tree from a graph)
+        - Dijsktra Algorithm (find the shortest path from a graph, an implementation of BFS)
